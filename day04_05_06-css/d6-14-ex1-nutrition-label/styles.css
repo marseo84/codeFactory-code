@@ -1,0 +1,167 @@
+:root {
+  /* divider sizes */
+  --divider-5: 10px;
+  --divider-4: 4px;  
+  --divider-3: 3px;  
+  --divider-2: 2px;  
+  --divider-1: 1px;  
+
+
+  /* font sizes */
+  --large: 3em;
+  --normal: 1em;
+  --small: 0.7em;
+
+
+  /* font & text styles */
+  --indent-2: 5px;
+  --indent-1: 3px;
+  } 
+}
+
+/* reset default values .........................................................*/
+* {
+  margin: 0;
+  padding: 0;
+  /* box sizing */
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+/* define classes ...............................................................*/
+/* divider sizes */
+.divider-5 {
+  height: var(--divider-5);
+  background-color: black;
+  
+}
+
+.divider-4 {
+  height: var(--divider-4);
+  background-color: black;
+}
+
+.divider-3 {
+  height: var(--divider-3);
+  background-color: black;
+}
+
+.divider-2 {
+  height: var(--divider-2);
+  background-color: black;
+}
+
+.divider-1 {
+  height: var(--divider-1);
+  background-color: black;
+}
+
+/* font sizes */
+.large {
+  font-size: var(--large);
+}
+
+.normal {  
+  font-size: var(--normal);
+}
+
+.small {
+  font-size: var(--small);
+}
+
+/* font & text styles */
+.bold {
+  font-weight: bold;
+}
+
+.indent-2 {
+  text-indent: var(--indent-2);
+}
+
+.indent-1 {
+  text-indent: var(--indent-1);
+}
+
+/* body & container ........................................................................ */
+
+body {
+  background-color: beige;
+}
+
+.container {
+  margin: 20px auto;
+  width: 400px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 0 black;
+  padding: 10px;
+  background-color: coral;
+  display: flex;
+  flex-direction: column;
+}
+
+.row,
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .row p:first-child,
+.row p:nth-child(2),
+.row p:nth-child(3) {
+  border: 1px solid black;
+} */
+
+
+/* ............................................................... !!! target frits table heading
+{
+  width: min-content;
+} */
+
+/* table 1 */
+.row p:first-child {
+  flex-basis: 70%;
+
+}
+.row p:nth-child(2),
+.row p:nth-child(3) {
+  flex-basis: 15%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* table-1 header
+p:nth-child(7) {
+  font-weight: bold;
+  font-size: 40px;
+} */
+
+
+/* table 2 */
+/* p:first-child = p:nth-child(1) */
+.row-2 p:first-child {
+  flex-basis: 50%;
+
+}
+.row-2 p:nth-child(2){
+  flex-basis: 20%;
+}
+
+
+.row-2 p:nth-child(3),
+.row-2 p:nth-child(4) {
+  flex-basis: 15%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+
