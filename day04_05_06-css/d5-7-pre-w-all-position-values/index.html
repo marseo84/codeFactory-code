@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 10px;
+    }
+
+    body {
+      height: 150vh;
+    }
+
+    span {
+      color: tomato;
+    }
+
+    .positioning-container {
+      border-radius: 10%;
+      color: white;
+      background-image: linear-gradient(rgb(11, 76, 140) 50%, #4d4949);
+      height: 10vh;
+      text-align: center;
+    }
+
+    #div-static {
+      position: static;
+    }
+
+    #div-absolute {
+      position: absolute;
+      bottom: 20%;
+      right: 30%;
+      width: 40vw;
+    }
+
+    #div-sticky {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+      margin-bottom: 5vh;
+    }
+
+    #div-relative {
+      position: relative;
+      bottom: -50px;
+      margin-bottom: 50px;
+      width: 100%;
+    }
+
+    #div-fixed {
+      position: fixed;
+      bottom: 0px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Positioning Elements</ h1>
+    <hr />
+    <div class="positioning-container" id="div-static">
+      <h2>This element has </h2>
+      <span>position: static;</span>
+    </div>
+    <p> *An element with position static; will follow the normal flow of the page as the element above</p>
+    <br />
+    < br />
+    <div class="positioning-container" id="div-absolute">
+      <h2>Position: absolute</h2>
+      This div element has position absolute to the viewport. The normal flow rules do not apply, it is free of normal
+      flow restrictions<br />
+      <span>position: absolute; bottom: 20%; right: 30%;</ span>
+    </div>
+    <div class="positioning-container" id="div-sticky">
+      <h2>Position: sticky</h2>
+      This div element has position sticky when it reaches a certain position previously set it will stick to its
+      position.<br />
+      <span> position: sticky; top :0;</span>
+    </div>
+    <h2> Position: relative</h2>
+    <p> Non-relative (aka static) element would appear just below this paragraph:</p>
+    <div class="positioning-container" id="div-relative">
+      This div element has position relative to the position where it would be in a normal flow; <br />it can of course
+      go left, right, up and down from its own initial position.<br /> Try commenting out the command<br /><span>
+        position:relative; bottom: -50px; </span>
+    </div>
+    < div class="positioning-container" id="div-fixed">
+      <h2> Position: fixed
+    </ h2>
+    Fixed element is glued to the edges of the viewport, regardless of how you change the viewport or scroll.
+    < br />
+    < span> position: fixed; bottom: 0px; </ span>
+    </ div>
+    </ body>
+    </ html>

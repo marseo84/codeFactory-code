@@ -1,0 +1,73 @@
+img {
+  width: 50px;
+}
+/* #face {
+  width: 400px;
+} */
+
+/* my code ............................................................................ */
+
+#face {
+  width: 80%;
+}
+
+.container {
+  width: 90dvw;
+  height: 90dvh;
+  display: flex;
+  justify-content: space-evenly;
+  /* position: relative; */
+}
+
+.character {
+  width: 30dvw;
+  height: 70dvh;
+}
+
+/* face 1 & face 2 .............................. */
+.hair {
+  width: 60%;
+  position: relative;
+
+  left: 10%;
+}
+
+#hair1 {
+  bottom: 110%;
+}
+
+#hair2 {
+  bottom: 100%;
+}
+
+.eyes {
+  width: 20%;
+  position: relative;
+  bottom: 50%;
+  left: 35%;
+  bottom: 60%;
+}
+
+.nose {
+  width: 10%;
+  position: relative;
+  bottom: 45%;
+}
+
+.mouth {
+  width: 20%;
+  position: relative;
+  bottom: 30%;
+  left: 15%;
+}
+
+.ears {
+  width: 40%;
+  position: relative;
+  bottom: 30%;
+  right: 30%;
+}
+
+/* face 1 ....................................... */
+
+/* face 2 ....................................... */

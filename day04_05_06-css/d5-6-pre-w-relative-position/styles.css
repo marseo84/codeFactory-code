@@ -1,0 +1,24 @@
+div.static {
+  position: static;
+}
+
+div.relative1 {
+  position: relative;
+  right: 50px;
+  top: 0px;
+  border: 3px solid green;
+}
+
+div.relative2 {
+  position: relative;
+  left: 250px;
+  top: 0px;
+  border: 3px solid red;
+}
+
+div.relative3 {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  border: 3px solid blue;
+}

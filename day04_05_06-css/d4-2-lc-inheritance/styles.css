@@ -1,0 +1,10 @@
+/* 
+    parent child - space - all children, not necessarily direct, can be nested multiple times, how deep their are
+    parent > child - selects only direct children
+*/
+
+
+
+.outerDiv > section > p {
+    
+}
