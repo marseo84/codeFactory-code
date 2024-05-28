@@ -1,0 +1,64 @@
+/* default appearance */
+.main > * {
+  padding: 10px;
+}
+.main > aside {
+  background-color: deepskyblue;
+}
+.main > article {
+  background-color: salmon;
+}
+.main > footer {
+  background-color: palegoldenrod;
+}
+
+/* Flexbox container default */
+.main {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/*****************/
+/*  WIDE SCREEN  */
+/*****************/
+@media screen and (min-width: 780px) {
+  .main {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+  .main > * {
+    border-radius: 10px;
+  }
+
+  /* order flex items */
+  .main > aside {
+    -webkit-order: -1;
+    order: -1;
+  }
+  .main > article {
+    -webkit-flex: 3;
+    flex: 1; /* fill all remaining available space on main-axis */
+  }
+}
+
+/*****************/
+/* NARROW SCREEN */
+/*****************/
+@media screen and (max-width: 781px) {
+  /* main-axis top to bottom */
+  .main {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  /* make link list to appear as a simple menu bar */
+  .main aside ul {
+    list-style-type: none;
+  }
+  .main aside li {
+    float: left;
+    margin: 5px;
+  }
+}
