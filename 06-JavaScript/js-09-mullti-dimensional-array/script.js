@@ -34,8 +34,6 @@ for (i = 0; i < tableRows; i++) {
   sourceArr.push([]);
 }
 
-
-
 // populate the table 
 i = 0;
 for (let c = 0; c < tableCols; c++) {
@@ -45,9 +43,7 @@ for (let c = 0; c < tableCols; c++) {
   }
 }
 console.log(sourceArr);
-
-
-
+console.table(sourceArr);
 
 // let sourceArr = [ 
 //   [1, 2, 1, 24], 
@@ -68,12 +64,6 @@ console.log(sourceArr);
 
 
 
-
-
-
-
-
-
 // get number of arrays in an array - sourceArr
 // declare an empty array with the same number of arrays - results
 let countInnerArr = sourceArr.length;
@@ -83,10 +73,6 @@ console.log("inner array count: " + countInnerArr);
 
 // declare an empty 2d array
 let results = [[], [], [], [], []];
-
-
-
-
 
 
 /*
