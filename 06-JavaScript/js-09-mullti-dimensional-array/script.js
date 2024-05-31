@@ -12,28 +12,17 @@
 let i = 0;
 // let n = 0;
 let searchNum = 0;
-
 let numsToFind = [11, 25, 17, 27, 0];
-// searched number, r, c
-// results = [
-//   [11, r, c],
-//   [25, r, c]
-//  ...
-// ]
-
 
 // declare an empty array and add values to it
 let numbersAllInOneArr = [1, 2, 1, 24, 8, 11, 9, 4, 7, 0, 7, 27, 7, 4, 28, 14, 3, 10, 25, 7, 21, 4, 6, 17, 3, 5, 26, 3];
+let numbersCount = numbersAllInOneArr.length;
 // let sourceArr = [];
-// console.log(sourceArr.length);
 // sourceArr = [[], [], [], [], [], [], []];
 sourceArr = [];
 
-
 console.log("source arr length: " + sourceArr.length);
 
-
-let numbersCount = numbersAllInOneArr.length;
 let tableRows = 7;
 let tableCols = numbersCount / tableRows;
 console.log(" table rows: " + tableRows);
