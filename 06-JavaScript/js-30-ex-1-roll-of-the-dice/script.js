@@ -46,7 +46,7 @@ document// get started
 function getNames() {
   let player1 = prompt("Player 1 Name:");
   let player2 = prompt("Player 2 Name:");
-  querySelector(".name-player-1").innerHTML = player1;
+  document.querySelector(".name-player-1").innerHTML = player1;
   document.querySelector(".name-player-2").innerHTML = player2;
   return [player1, player2]
 }
