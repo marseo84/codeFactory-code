@@ -19,7 +19,8 @@ let numbersAllInOneArr = [1, 2, 1, 24, 8, 11, 9, 4, 7, 0, 7, 27, 7, 4, 28, 14, 3
 let numbersCount = numbersAllInOneArr.length;
 // let sourceArr = [];
 // sourceArr = [[], [], [], [], [], [], []];
-sourceArr = [];
+let sourceArr = [];
+let results = [];
 
 console.log("source arr length: " + sourceArr.length);
 
@@ -72,7 +73,11 @@ console.log("inner array count: " + countInnerArr);
 
 
 // declare an empty 2d array
-let results = [[], [], [], [], []];
+// results = [[], [], [], [], []];
+for (i = 0; i < numsToFind.length; i++) {
+
+}
+
 
 
 /*

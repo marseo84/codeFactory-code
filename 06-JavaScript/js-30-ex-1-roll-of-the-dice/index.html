@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Roll the Dice</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="title title-left">LET'S GET</div>
+    <div class="console">
+      <div class="header">
+        <div class="header-row header-row-1">
+          <div class="name-player-1">Name1</div>
+          <div class="control-btn">Play</div>
+          <div class="name-player-2">Name2</div>
+        </div>
+        <div class="header-row header-row-2">
+          <div class="player-1-face">Face1</div>
+          <div class="player-1-result">Result1</div>
+          <div class="player-2-result">Result2</div>
+          <div class="player-2-face">Face2</div>
+        </div>
+      </div>
+      <div class="game-body">
+        <div class="row row-10 row-bricks-2"></div>
+        <div class="row row-9 row-bricks-3"></div>
+        <div class="row row-8 row-bricks-2"></div>
+        <div class="row row-7 row-bricks-3"></div>
+        <div class="row row-6 row-bricks-2"></div>
+        <div class="row row-5 row-bricks-3"></div>
+        <div class="row row-4 row-bricks-2"></div>
+        <div class="row row-3 row-bricks-3"></div>
+        <div class="row row-2 row-bricks-2">
+          <div class="left">
+            <div class="bricks bricks-2" id="row-left-2">
+              <div class="brick-2"></div>
+              <div class="brick-2"></div>
+            </div>
+            <div class="round-counter" id="round-left-2"></div>
+          </div>
+          <div class="right">
+            <div class="round-counter" id="round-right-2"></div>
+            <div class="bricks bricks-2" id="row-right-2">
+              <div class="brick-2"></div>
+              <div class="brick-2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-1 row-bricks-3">
+          <div class="left">
+            <div class="bricks bricks-3" id="row-left-1">
+              <div class="brick-3"></div>
+              <div class="brick-3"></div>
+              <div class="brick-3"></div>
+            </div>
+            <div class="round-counter" id="round-left-1"></div>
+          </div>
+          <div class="right">
+            <div class="round-counter" id="round-right-1"></div>
+            <div class="bricks bricks-3" id="row-right-1">
+              <div class="brick-3"></div>
+              <div class="brick-3"></div>
+              <div class="brick-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="title title-right">ROLLING, BABY!!!</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
