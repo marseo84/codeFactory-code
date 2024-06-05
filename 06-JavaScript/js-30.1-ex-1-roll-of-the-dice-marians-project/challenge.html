@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JavaScript Day4 Challenge</title>
+        <link
+            rel="stylesheet"
+            href="../node_modules/bootstrap/dist/css/bootstrap.css"
+        />
+        <!-- to extend/override bootstrap -->
+        <link rel="stylesheet" href="./challenge.css" />
+    </head>
+
+    <body>
+        <main class="container">
+            <!-- initiate the game -->
+            <div id="start" class="container">
+                <h1>Play: Bigger Number Wins!</h1>
+                <button id="start_button" type="button" class="btn btn-primary">
+                    Start!
+                </button>
+            </div>
+            <!-- play the game -->
+            <div id="play" class="container">
+                <div class="container text-center">
+                    <div class="row">
+                        <div id="p1" class="col">
+                            <p id="p1name">player1 name</p>
+                            <button
+                                id="p1roll"
+                                type="button"
+                                class="btn btn-primary"
+                                disabled
+                            >
+                                Play1
+                            </button>
+                            <p id="p1result">player1 result</p>
+                        </div>
+                        <div id="round" class="col">round</div>
+                        <div id="p2" class="col">
+                            <p id="p2name">player1 name</p>
+                            <button
+                                id="p2roll"
+                                type="button"
+                                class="btn btn-primary"
+                                disabled
+                            >
+                                Play2
+                            </button>
+                            <p id="player2results">player2 result</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- evaluate the game -->
+            <div id="results" class="container">results</div>
+        </main>
+    </body>
+
+    <script src="challenge.js"></script>
+</html>
