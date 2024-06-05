@@ -1,8 +1,5 @@
 :root {
-  --black: #000000;
-  --pink: #f72798;
-  --orange: #f57d1f;
-  --yellow: #ebf400;
+  --bg: rgb(215, 194, 194);
 }
 
 * {
@@ -12,85 +9,10 @@
 }
 
 body {
-  background-color: var(--black);
+  background-color: var(--bg);
   overflow: hidden;
 }
 
 .container {
-  margin: 5vh auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.title {
-  width: 25vh;
-  height: 80vh;
-  color: var(--pink);
-  font-size: 4em;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-
-.title-left {
-  /* border: 3px solid red; */
-  text-align: right;
-}
-
-.title-right {
-  /* border: 3px solid green; */
-  display: flex;
-  align-items: end;
-}
-
-.console {
-  /* margin: 5vh auto; */
-  height: 90vh;
-  width: 50vw;
-  border: 6px solid white;
-  background-color: var(--yellow);
-  border-radius: 20px;
-  box-shadow: 8px 8px 0px white;
-  display: flex;
-  flex-direction: column;
-}
-
-.header {
-  height: 30%;
-  font-size: 2em;
-}
-
-.header-row {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-row-1 * {
-  flex: 2 0 2;
-  height: 40%;
-}
-
-.header-row-1 * {
-  flex: 2 0 2;
-  height: 60%;
-}
-
-.name-player-1,
-.player-1-face,
-.player-1-result {
-  background-color: var(--orange);
-}
-
-.name-player-2,
-.player-2-face,
-.player-2-result {
-  background-color: var(--pink);
-}
-
-.control-btn {
-  background-color: var(--black);
-  color: white;
-}
-
-.game-body {
-  height: 70%;
+  display: grid;
 }

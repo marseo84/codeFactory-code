@@ -1,0 +1,119 @@
+/*
+- two sided layout, for two players
+- load -> prompt - > names for each player
+- display names in the header of the page
+- in ech half, button
+-- random number
+- display the number separately, visually appealing in each players half
+-- both have rolled, announce the winner
+
+- count games
+- give final score
+
+// separate individual tasks
+// print in a different function
+// front and back split
+
+
+
+boxing rolling
+https://media.istockphoto.com/id/1471064356/photo/professional-boxing-ring-3d-illustration.jpg?s=612x612&w=0&k=20&c=Sq9B9AgA6TJOGulCAt0TFjj7Ns480lAlwfv5feSBXjY=
+
+
+-----------------------
+ALTERNATIVE
+- one button for rolling for both
+- ask for names upon a request, not immediately
+- roll to see who starts
+- change color and expression after each round - winner and loser
+- change expression according to the difference in the game
+
+- select player ...
+
+- brick by brick, not by rows
+
+
+- throwing 6 dice, the other game
+
+*/
+----------------------------------------------------------------
+
+// get started
+//    start button
+//    (diable / change when playing)
+//    get players' names
+//    save and print names
+//    ask if the players are the same, not to repeat typing the names     ...
+
+
+// check number of games and if there are new players           ...
+
+// create objects to store the rolls and game wins
+
+// roll the dice
+//   generate random numbers on click
+//   dispaly result
+//    each player
+//  
+//
+
+
+// score
+//    compare resluts
+//    display the winner of the rounds
+//    count rounds
+//    save score
+//    update visual element
+//
+// 
+// 
+
+// final score
+//     display score
+// 
+// 
+
+
+/*
+// print player names - call individual functions
+  // document.querySelector(".name-player-1").innerHTML = player1;
+  // document.querySelector(".name-player-2").innerHTML = player2;
+
+
+//get player names
+let players = document.querySelector(".control-btn");
+  console.log(players.addEventListener("click", function () {
+  
+  getNames();
+}));
+
+// print roll number
+document.querySelector(".player-1-result").innerHTML = rollNumber;
+
+
+*/
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------
+ADD LATER 1
+- consecutive games - ask if the players are the same or if to request new names
+
+
+
+ADD LATER 2
+- regex to validate input
+
+--------------------------------------------------------------
+ANOTHER VERSION
+- play with one button for rolling for both
+- different story
+
+
+
